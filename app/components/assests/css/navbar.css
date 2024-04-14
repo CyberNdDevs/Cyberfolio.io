@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Bigelow+Rules&family=Montserrat:wght@500&family=Open+Sans&family=Syne:wght@700&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Bigelow+Rules&family=Montserrat:wght@500&family=Open+Sans&family=Poppins:wght@600&family=Syne:wght@700&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.home{
+    width: 100%;
+}
+.Navbar{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: height 1s;
+    top:0;
+    position:sticky;
+    background: #004953;
+    z-index: 100;
+}
+.navbar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sectioncont{
+    display: flex;
+    align-items: center;
+    margin-right:80px;
+}
+.header{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 650;
+    padding:14px 0;
+    margin-left: 80px;
+    font-family: "Roboto", sans-serif;
+}
+.header span{
+    color: rgb(255, 69, 1);
+}
+ul{
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+    margin-left: 40px;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Barlow', sans-serif;
+    padding: 5px;
+    font-weight: 500;
+    transition: 0.05s ease;
+    font-size: 17.5px;
+}
+ul li a:hover{
+    color: orangered;
+}
+.cvbutton{
+    padding:10px 30px;
+    cursor: pointer;
+    font-family: 'Barlow', sans-serif;
+    background-color: orangered;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.colorChange{
+    background-color: #242338;
+    box-shadow: rgba(0, 0, 0, 0.307) 0px 5px 15px;
+}
+
+
+.menu{
+    font-size: 40px;
+    color: hsl(0, 0%, 100%);
+    display: none;
+    cursor: pointer;
+}
+.close{
+    font-size: 30px;
+    color: hsl(0, 0%, 100%);
+    display: none;
+    cursor: pointer;
+    margin-top: 6px;
+}
+
+.contactbox{
+    background: #ffffffce;
+    position: absolute;
+    top:0;
+    height: 100vh;
+    width: 100%;
+    z-index: 20000px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+.contactclosebtn{
+    font-size: 40px;
+    color: #fff;
+    background: red;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 60px;
+    margin-top: 60px;
+}
+.closecontact{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.contactitem{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    font-family: 'Barlow', sans-serif;
+    padding: 5px;
+    font-weight: 600;
+    transition: 0.05s ease;
+    font-size: 17.5px;
+    cursor: pointer;
+}
+.contactitem:hover{
+    color: orangered;
+}
+.quotebox{
+    width: 300px;
+    height: 400px;
+    background-color: #242338;
+    margin-top: 50px;
+    border-radius: 30px;
+    padding: 50px 40px;
+    box-shadow: rgba(0, 0, 0, 0.764) 0px 5px 15px;
+}
+.contacthide{
+    display: none;
+}
+.headerquote{
+    font-family: 'Barlow', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: orangered;
+    margin-bottom: 10px;
+}
+.subheaderquote{
+    font-family: 'Barlow', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.contacttxt{
+    width: 273px;
+    padding: 12.5px 10px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+}
+.contactmessage{
+    font-size: 16px;
+    padding: 10px;
+    width: 270px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.contactsendbtn{
+    width: 295px;
+    font-size: 18px;
+    padding: 12px 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    background-color: orangered;
+    color: #fff;
+    font-weight: 700;
+}
+
+.messagesentinfo{
+    font-family: 'Barlow', sans-serif;
+    font-size: 15px;
+    color: #05c305;
+    text-align: center;
+    margin-top: 5px;
+}
+.messagesentinfohid{
+    display: none;
+}
+
+
+
+
+@media screen and (max-width:1060px){
+    .header{
+        margin-left: 28px;
+        padding: 14px 0 14px 0 ;
+        margin-bottom: 0;
+    }
+    .sectioncont{
+        margin-top: 0;
+        padding-top: 0;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 0;
+        width: 100%;
+    }
+    ul{
+        flex-direction: column ;
+        padding: 0 0 0 30px; 
+        display: none;
+        margin-top: 0;
+        margin-left: 0;
+        width: 80%;
+    }
+    ul li{
+        margin-top: 10px;
+        width: 100%;
+    }
+    ul li a{
+        padding-left: 0;
+        align-items: flex-start;
+    }
+    .cvbutton{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        display:none;
+    }
+    .menu{
+        display: block;
+        position: absolute;
+        margin-left: 90%;
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    .quotebox{
+        margin-top: 20vh;
+    }
+    .close{
+        /* display: block; */
+        position: absolute;
+        top: 20px;
+        margin-left: 90%;
+    }
+    .showup{
+        display: block;
+    }
+    .hide{
+        display:none;
+    }
+    .navheight{
+        height: 350px;
+    }
+}
+@media screen and (max-width:490px) {
+
+    .menu{
+        margin-left: 80%;
+    }
+    .close{
+        margin-left: 80%;
+    }
+    .navheight{
+        height: 360px;
+    }
+    .contactclosebtn{
+        margin-right: 5%;
+    }
+}
+
+
+@media screen and (max-width:420px){
+    .quotebox{
+        width: 90%;
+        padding: 50px 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .contacttxt{
+        width: 80%;
+    }
+    .contactmessage{
+        width: 80%;
+    }
+    .contactsendbtn{
+        width: 86%;
+    }
+    .headerquote{
+        font-size: 5.8vw;
+        width: 84%;
+        text-align: start;
+    }
+    .subheaderquote{
+        font-size: 11vw;
+        width: 84%;
+        text-align: start;
+    }
+    
+}

@@ -1,0 +1,9 @@
+/* HTML: <div class="loader"></div> */
+body{
+    background: #ffffff;
+}
+.homePage{
+    width: 100%;
+    min-height: 100vh;
+    background: #ffffff;
+}
