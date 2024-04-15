@@ -78,6 +78,9 @@ const TestimonialsBody = () => {
   const [header, setheader] = useState(testimonials[0].headercontent);
   const [content, setcontent] = useState(testimonials[0].description);
   const [starcount, setstarcount] = useState<any>(testimonials[0].stars);
+  
+  const totalStars = testimonials.reduce((total, testimonial) => total + testimonial.stars, 0);
+  const overallrating = (totalStars / 25)*5;
 
   return (
     <section className='Testimonials' id='testimonials'>
@@ -99,6 +102,10 @@ const TestimonialsBody = () => {
                         )
                     })
                 }
+                <div className="overallrate">
+                    <div className="overallrate_header">{overallrating.toFixed(1)} out of 5</div>
+                    <div className="overallrate_subheader">Overall average rating</div>
+                </div>
             </div>
 
 

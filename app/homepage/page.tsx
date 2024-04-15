@@ -10,7 +10,8 @@ const page = () => {
   return (
     <div className='homePage'>
       <Navbar/>
-      <HeroSectionBody/>
+      {/* <HeroSectionBody/> */}
+      
       <TeamBody/>
       <TestimonialsBody/> 
       <Footer/>
