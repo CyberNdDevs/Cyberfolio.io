@@ -70,8 +70,7 @@ const Footer = () => {
                       <li><a href="#deploy">Deployments</a></li>
                     </ul>
                   </div>
-
-
+                  
                 </div>
 
            </div>
