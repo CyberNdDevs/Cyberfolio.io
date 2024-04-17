@@ -1,6 +1,7 @@
 import React from 'react';
 import "../assests/css/about.css";
 import Image from 'next/image';
+import aboutImg from "../assests/images/Banner7.jpg"
 
 const AboutBody = () => {
   return (
@@ -35,7 +36,7 @@ const AboutBody = () => {
                 </div>
             </div>
             <div className="aboutcont2">
-                <Image src="/images/about.png" alt='none' width={580} height={600}/>
+                <Image src={aboutImg} alt='none' width={580} height={600} className='aboutImgs'/>
             </div>
         </div>
     </section>

@@ -23,9 +23,11 @@ const HeroSectionBody = () => {
             <Image src={Banner2} className="Banner2Img" width={500} height={600} alt='none'/>
           </div>
           <div className="herocontInfo">
-            <div className="herinfo">k</div>
-            <div className='heroinfo'></div>
-            <div className='heroinfo'></div>
+            <div className="heroinfo">
+              
+            </div>
+            <div className="heroinfo"></div>
+            <div className="heroinfo"></div>
           </div>
         </div>
     </div>

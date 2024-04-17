@@ -3,7 +3,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 200px 0;
+    padding-top: 120px;
+
 }
 .aboutcont{
     width: 1400px;
@@ -57,4 +58,9 @@
 }
 .aboutcont2{
     margin-left: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
