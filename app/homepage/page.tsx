@@ -6,6 +6,7 @@ import HeroSectionBody from '../components/HeroSection/HeroSectionBody';
 import TeamBody from '../components/Team/TeamBody';
 import TestimonialsBody from '../components/Testimonials/TestimonialsBody';
 import AboutBody from '../components/About/AboutBody';
+import PricingBody from '../components/Pricing/PricingBody';
 
 const page = () => {
   return (
@@ -15,6 +16,7 @@ const page = () => {
       <AboutBody/>
       <TeamBody/>
       <TestimonialsBody/> 
+      <PricingBody/>
       <Footer/>
     </div>
   )

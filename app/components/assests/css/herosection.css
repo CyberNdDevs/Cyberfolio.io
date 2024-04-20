@@ -75,7 +75,6 @@
     width: 1200px;
     height: 300px;
     background-color: #fff;
-    background-color: aliceblue;
 }
 .heroline{
     width: 180px;
@@ -108,14 +107,55 @@
 
 .herocontInfo{
     width: 100%;
-    height: 220px;
-    margin-top: 540px;
+    height: 200px;
+    margin-top: 520px;
     display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    /* background-image: -webkit-linear-gradient(30deg, orangered 63%, #004953 37%); */
 }
 
-.heroinfo{
-    background-color: rgb(255 68 0 / 17%);
-    margin-right: 3px;
-    width: 33.33%;
+.heroinfo1{
+    margin: 0 10px;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     height: 100%;
+    box-shadow: rgba(3, 101, 214, 0.151) 0px 0px 0px 3px;
+}
+.heroinfo{
+    width: 32%;
+    height: 100%;
+    margin: 0 10px;
+    box-shadow: rgba(3, 101, 214, 0.151) 0px 0px 0px 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+}
+.heroinfoheads{
+    font-size: 45px;
+    font-weight: 800;
+    color: #383030;
+    line-height: 48px;
+}
+.heroinfoheads1{
+    font-size: 40px;
+    font-weight: 800;
+    color: #383030;
+    line-height: 48px;
+}
+.heroinfoabout{
+    font-size: 15px;
+    font-weight: 400;
+}
+.bookbtn{
+    background: orangered;
+    color: #ffffff;
+    padding: 10px 40px;
+    border-radius: 10px;
+    margin-top: 20px;
 }

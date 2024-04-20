@@ -24,10 +24,18 @@ const HeroSectionBody = () => {
           </div>
           <div className="herocontInfo">
             <div className="heroinfo">
-              
+              <div className="heroinfoheads">25+</div>
+              <div className="heroinfoabout">satisfied customers</div>
             </div>
-            <div className="heroinfo"></div>
-            <div className="heroinfo"></div>
+            <div className="heroinfo1">
+              <div className="heroinfoheads1">Connect with Us</div>
+              <div className="heroinfoabout">Let's Discuss How We Can Help You Reach Your Goals</div>
+              {/* <a href="#callPage" className='bookbtn'>Book an appointment</a> */}
+            </div>
+            <div className="heroinfo">
+              <div className="heroinfoheads">40+</div>
+              <div className="heroinfoabout">completed projects</div>
+            </div>
           </div>
         </div>
     </div>
