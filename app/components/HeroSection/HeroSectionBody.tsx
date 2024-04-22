@@ -20,7 +20,7 @@ const HeroSectionBody = () => {
               <a href="#contactus" className='headbtn2'>Contact us</a>
               </div>
             </div>
-            <Image src={Banner2} className="Banner2Img" width={500} height={600} alt='none'/>
+            <Image src={Banner2} className="Banner2Img" width={500} height={600} alt='noneimg'/>
           </div>
           <div className="herocontInfo">
             <div className="heroinfo">

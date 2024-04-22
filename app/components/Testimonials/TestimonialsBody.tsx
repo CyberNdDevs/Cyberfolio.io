@@ -15,8 +15,28 @@ const TestimonialsBody = () => {
             headercontent: "It's all good",
             stars: 5,
             description: "I must commend the team for their outstanding work and their commitment to delivering results on time. Their dedication and attention to detail are truly remarkable, ensuring that every aspect of the project is executed flawlessly. It's a testament to their professionalism and expertise. Keep up the excellent work.",
-            profileimg: '/images/test1.png',
+            profileimg: '/images/test2.png',
             userinfoshow: true
+        },
+        {
+            name: "Tanish Khandelwal",
+            role: "ML Engineer",
+            hovershow: false,
+            headercontent: "Good With Commitments",
+            stars: 5,
+            description: "I absolutely adore the way they wholeheartedly commit to their promises and consistently go above and beyond what was initially committed. Their dedication and determination to exceed expectations are truly inspiring. It's rare to find such a level of reliability and accountability in today's fast-paced world. Their commitment sets a benchmark for excellence that others strive to emulate.",
+            profileimg: '/images/test4.jpg',
+            userinfoshow: false
+        },
+        {
+            name: "Rishabh Sinha",
+            role: "Tech Lead",
+            hovershow: true,
+            headercontent: "Great Work!",
+            stars: 4,
+            description: "I cannot overstate how impressed I am with the exceptional service provided in the website redesign project. Not only did it enhance the visual appeal and functionality, but it also resulted in a remarkable 25% increase in my business. It's a testament to their expertise and commitment to delivering outstanding results",
+            profileimg: '/images/test1.png',
+            userinfoshow: false
         },
         {
             name: "Ansh Kapoor",
@@ -25,27 +45,7 @@ const TestimonialsBody = () => {
             headercontent: "Great Experience",
             stars: 4,
             description: "I am thoroughly impressed with the application's exceptional performance and intuitive user interface. It has surpassed my expectations in every aspect. From seamless navigation to lightning-fast responsiveness, every interaction with the app feels effortless and enjoyable. I wholeheartedly recommend it to anyone seeking a superior mobile experience!",
-            profileimg: '/images/test1.png',
-            userinfoshow: false
-        },
-        {
-            name: "Shanmukh Sitaram",
-            role: "CEO CalciteX",
-            hovershow: false,
-            headercontent: "Good With Commitments",
-            stars: 5,
-            description: "I absolutely adore the way they wholeheartedly commit to their promises and consistently go above and beyond what was initially committed. Their dedication and determination to exceed expectations are truly inspiring. It's rare to find such a level of reliability and accountability in today's fast-paced world. Their commitment sets a benchmark for excellence that others strive to emulate.",
-            profileimg: '/images/test1.png',
-            userinfoshow: false
-        },
-        {
-            name: "Sophia",
-            role: "Desktop user",
-            hovershow: true,
-            headercontent: "Great Work!",
-            stars: 4,
-            description: "I cannot overstate how impressed I am with the exceptional service provided in the website redesign project. Not only did it enhance the visual appeal and functionality, but it also resulted in a remarkable 25% increase in my business. It's a testament to their expertise and commitment to delivering outstanding results",
-            profileimg: '/images/test1.png',
+            profileimg: '/images/test31.png',
             userinfoshow: false
         },
         {

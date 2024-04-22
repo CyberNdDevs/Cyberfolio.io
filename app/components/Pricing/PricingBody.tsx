@@ -62,29 +62,29 @@ const PricingBody = () => {
                     </div>
                 </div>
                 <div className="priceservice">
-                    <div className="priceservicehead">Website</div>
-                    <div className="pricecharge">Rs. 14000/- <span>onwards</span> </div>
+                    <div className="priceservicehead">VP testing</div>
+                    <div className="pricecharge">Rs. 12000/- <span>onwards</span> </div>
                     <div className="pricesubdesc">Offering the most competitive price in line with current market standards.</div>
                     <button className='pricebtn'>Get Started</button>
                     <div className="facilities">
                         <TiTick className='facilityicon'/> 
-                        <p className="facilityinfo">Project lifecycle</p>
+                        <p className="facilityinfo">Vulnerability & penetration tests</p>
                     </div>
                     <div className="facilities">
                         <TiTick className='facilityicon'/> 
-                        <p className="facilityinfo">Tech-stack suggestion</p>
+                        <p className="facilityinfo">For Android, Web, iOS apps.</p>
                     </div>
                     <div className="facilities">
                         <TiTick className='facilityicon'/> 
-                        <p className="facilityinfo">Product designs</p>
+                        <p className="facilityinfo">Configuration Review</p>
                     </div>
                     <div className="facilities">
                         <TiTick className='facilityicon'/> 
-                        <p className="facilityinfo">Testing</p>
+                        <p className="facilityinfo">Source code Review </p>
                     </div>
                     <div className="facilities">
                         <TiTick className='facilityicon'/> 
-                        <p className="facilityinfo">Deployments</p>
+                        <p className="facilityinfo">Network Penetration Tests</p>
                     </div>
                 </div>
             </div>

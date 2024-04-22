@@ -93,7 +93,7 @@ const TeamBody = () => {
               <div className="Teamsocials">
                 <a href={member.instagramLink} target='_blank'><GrInstagram /></a>
                 <a href={member.twitterLink} target='_blank'><FaTwitter/></a>
-                <a href={member.twitterLink} target='_blank'><FaLinkedin/></a>
+                <a href={member.linkedLink} target='_blank'><FaLinkedin/></a>
               </div>
 
               <div className="infoicons">
