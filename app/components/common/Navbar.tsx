@@ -2,10 +2,14 @@
 import React, { useRef, useState } from "react";
 import "../assests/css/navbar.css";
 import { FiAlignJustify, FiXSquare } from "react-icons/fi";
-
+import { useRouter } from "next/navigation";
 
 const Navbar = () => {
   const [hidmenu, sethidmenu] = useState(true);
+  const router = useRouter();
+  const navigateToAppointment = ()=>{
+    router.push('/bookappointment');
+  }
   return (
     <div className={hidmenu ? "Navbar" : "Navbar navheight"}>
       <div className="navbar">
@@ -30,13 +34,12 @@ const Navbar = () => {
                 <a href="#testimonials">Testimonials</a>
               </li>
             </ul>
-            <a
-              href="#contact"
-              rel="noreferrer"
+            <button
               className={hidmenu ? "cvbutton" : "cvbutton showup"}
+              onClick={()=>{navigateToAppointment()}}
             >
-              Contact Us
-            </a>
+              Book Appointment
+            </button>
         </div>
         <FiAlignJustify
           className={hidmenu ? "menu" : "menu hide"}

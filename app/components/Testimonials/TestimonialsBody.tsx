@@ -35,7 +35,7 @@ const TestimonialsBody = () => {
             headercontent: "Great Work!",
             stars: 4,
             description: "I cannot overstate how impressed I am with the exceptional service provided in the website redesign project. Not only did it enhance the visual appeal and functionality, but it also resulted in a remarkable 25% increase in my business. It's a testament to their expertise and commitment to delivering outstanding results",
-            profileimg: '/images/test1.png',
+            profileimg: '/images/test111.jpeg',
             userinfoshow: false
         },
         {
@@ -46,7 +46,7 @@ const TestimonialsBody = () => {
             stars: 4,
             description: "I am thoroughly impressed with the application's exceptional performance and intuitive user interface. It has surpassed my expectations in every aspect. From seamless navigation to lightning-fast responsiveness, every interaction with the app feels effortless and enjoyable. I wholeheartedly recommend it to anyone seeking a superior mobile experience!",
             profileimg: '/images/test31.png',
-            userinfoshow: false
+            userinfoshow: false 
         },
         {
             name: "Aryan",

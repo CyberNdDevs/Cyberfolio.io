@@ -1,0 +1,19 @@
+.bookAppointment{
+    width: 100%;
+}
+.bookappointmentcont{
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+}
+.bookappointmentimg{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+
+
+}
+.imageappointment{
+    width: 550px;
+}

@@ -1,8 +1,6 @@
 import React from 'react';
-import HeroImage from "../assests/images/HeroImage.png";
 import Image from 'next/image';
 import "../assests/css/herosection.css"
-import Banner1 from "../assests/images/banner2.jpg"
 import Banner2 from "../assests/images/banner4.png"
 
 const HeroSectionBody = () => {
