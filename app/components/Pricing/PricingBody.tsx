@@ -4,7 +4,7 @@ import { TiTick } from "react-icons/ti";
 
 const PricingBody = () => {
   return (
-    <div className='Pricing'>
+    <div className='Pricing' id='pricing'>
         <div className="pricingcont">
             <div className="priceheader">Ready to Get Started?</div>
             <div className="pricesubheader">Choose a service tailored to your needs </div>

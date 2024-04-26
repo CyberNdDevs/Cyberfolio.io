@@ -1,4 +1,7 @@
 /* HTML: <div class="loader"></div> */
+html{
+    scroll-behavior: smooth;
+}
 body{
     background: #ffffff;
 }
@@ -6,4 +9,5 @@ body{
     width: 100%;
     min-height: 100vh;
     background: #ffffff;
+    scroll-behavior: smooth;
 }

@@ -1,19 +1,11 @@
 .bookAppointment{
     width: 100%;
+    background-image: -webkit-linear-gradient(30deg, #ffffff 50%, #004953 50%);
+    height: 100vh;
 }
 .bookappointmentcont{
     width: 1500px;
+    height: 700px;
     display: flex;
     justify-content: center;
-}
-.bookappointmentimg{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    justify-content: center;
-
-
-}
-.imageappointment{
-    width: 550px;
 }

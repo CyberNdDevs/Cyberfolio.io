@@ -5,7 +5,7 @@ import aboutImg from "../assests/images/Banner7.jpg"
 
 const AboutBody = () => {
   return (
-    <section className='About' id='services'>
+    <section className='About' id='about'>
         <div className="aboutcont">
             <div className="aboutcont1">
                 <div className="aboutheader">What Services DO We Offer ?</div>

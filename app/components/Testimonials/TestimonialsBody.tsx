@@ -19,6 +19,16 @@ const TestimonialsBody = () => {
             userinfoshow: true
         },
         {
+            name: "Akash Maggon",
+            role: "Tech Lead",
+            hovershow: false,
+            headercontent: "Impressive Work!",
+            stars: 5,
+            description: "I'm truly amazed by the app's functionality; it's a game-changer for mobile users like myself. Moreover, the team also addressed security breaches effectively, enhancing the app's overall security measures. This proactive approach not only ensures a seamless user experience but also instills confidence in the app's reliability and safety. Kudos to the team for their dedication and expertise",
+            profileimg: '/images/test7.png',
+            userinfoshow: false
+        },
+        {
             name: "Tanish Khandelwal",
             role: "ML Engineer",
             hovershow: false,
@@ -47,16 +57,6 @@ const TestimonialsBody = () => {
             description: "I am thoroughly impressed with the application's exceptional performance and intuitive user interface. It has surpassed my expectations in every aspect. From seamless navigation to lightning-fast responsiveness, every interaction with the app feels effortless and enjoyable. I wholeheartedly recommend it to anyone seeking a superior mobile experience!",
             profileimg: '/images/test31.png',
             userinfoshow: false 
-        },
-        {
-            name: "Aryan",
-            role: "Mobile user",
-            hovershow: false,
-            headercontent: "Impressive Work!",
-            stars: 5,
-            description: "I'm truly amazed by the app's functionality; it's a game-changer for mobile users like myself. Moreover, the team also addressed security breaches effectively, enhancing the app's overall security measures. This proactive approach not only ensures a seamless user experience but also instills confidence in the app's reliability and safety. Kudos to the team for their dedication and expertise",
-            profileimg: '/images/test1.png',
-            userinfoshow: false
         }
     ]);
 
