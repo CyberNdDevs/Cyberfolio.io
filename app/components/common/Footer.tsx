@@ -10,7 +10,7 @@ import { FaSquareGithub } from "react-icons/fa6";
 const Footer = () => {
   return (
     <>
-      <div className="footerhead">Back to Top  <TbArrowBigUpLinesFilled className='arrowup'/></div>
+      <a href="#home" className="footerhead">Back to Top  <TbArrowBigUpLinesFilled className='arrowup'/></a>
       <div className='footer'>
         <div className="subfooter">
            <div className="footercont">

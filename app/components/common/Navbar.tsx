@@ -11,13 +11,13 @@ const Navbar = () => {
     router.push('/bookappointment');
   }
   return (
-    <div className={hidmenu ? "Navbar" : "Navbar navheight"}>
+    <div className="Navbar">
       <div className="navbar">
         <a href="#home" className="header">
           <span>Cy</span>berDevs
         </a>
-        <div className="sectioncont">
-            <ul className={hidmenu ? "" : "showup"}>
+        <div className={hidmenu?"sectioncont":"sectioncont showup"}>
+            <ul>
               <li>
                 <a href="#home">Home</a>
               </li>

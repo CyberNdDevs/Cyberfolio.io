@@ -213,7 +213,16 @@ ul li a:hover{
         margin-top: 0;
         padding-top: 0;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
+        position: absolute;
+        background-color:#004953;
+        padding: 30px 10px;
+        margin-left: 65%;
+        margin-top: 90px;
+        border-radius: 10px;
+        width: 230px;
+        border: 1px solid #fff ;
+        display: none;
     }
     .navbar{
         flex-direction: column;
@@ -223,24 +232,27 @@ ul li a:hover{
     }
     ul{
         flex-direction: column ;
-        padding: 0 0 0 30px; 
-        display: none;
+        padding: 0 0 0 0;
         margin-top: 0;
         margin-left: 0;
-        width: 80%;
+        width: 400px;
+        align-items: center;
+        justify-items: center;
     }
     ul li{
         margin-top: 10px;
-        width: 100%;
+        text-align: center;
     }
     ul li a{
         padding-left: 0;
+        padding-right: 0;
         align-items: flex-start;
     }
     .cvbutton{
         margin-top: 10px;
         margin-bottom: 10px;
-        margin-left: 20px;
+        margin-left: 0;
+        margin-right: 0;
         display:none;
     }
     .menu{
@@ -260,7 +272,7 @@ ul li a:hover{
         margin-left: 90%;
     }
     .showup{
-        display: block;
+        display: flex;
     }
     .hide{
         display:none;
